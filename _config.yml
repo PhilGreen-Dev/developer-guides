@@ -7,8 +7,20 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
 include:
   - CONTRIBUTING.md
   - README.md
   - LICENSE.md
-  - CODEOFCONDUCT.md
+  - CODE_OF_CONDUCT.md
+
+nav:
+  - Home: /
+  - Blog: /posts
+  - Contribute: /CONTRIBUTING
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
