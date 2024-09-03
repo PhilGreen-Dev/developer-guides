@@ -12,7 +12,7 @@ First off, thank you for considering contributing to The Green Stack! It's peopl
 
 ## Code of Conduct
 
-By participating in this project, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md) (Note: Coming soon!).
+By participating in this project, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## What We're Looking For
 
