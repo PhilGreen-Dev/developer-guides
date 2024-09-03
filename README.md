@@ -30,8 +30,7 @@ Just as a healthy ecosystem thrives on diversity, a robust tech stack flourishes
 
 ### 🌎 Contributing to the Ecosystem
 
-Your insights can help this knowledge base grow! If you're interested in contributing or have suggestions for new topics, please check out our [Contributing Guidelines](CONTRIBUTING.md) (coming soon).
-
+Your insights can help this knowledge base grow! If you're interested in contributing or have suggestions for new topics, please check out our [Contributing Guidelines](CONTRIBUTING.md).
 ### 🌻 Stay Connected
 
 - [Follow me on GitHub](https://github.com/PhilGreen-Dev)
