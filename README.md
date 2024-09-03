@@ -15,7 +15,7 @@ The Green Stack is a blog-style repository where I share:
 
 ### 🌿 Latest Sprouts
 
-- [Mastering Markdown and Crafting the Perfect README](link-to-first-post.md)
+- [Mastering Markdown and Crafting the Perfect README](posts/2024-09-03-mastering-markdown-and-readmes.md)
 - [Coming Soon: Next exciting topic!]
 
 ### 🍃 Why "The Green Stack"?
