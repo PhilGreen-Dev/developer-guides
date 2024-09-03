@@ -1,26 +1,62 @@
 title: The Green Stack
 description: Cultivating Developer Knowledge, One Guide at a Time
 author: Phillip Green
-theme: jekyll-theme-minimal
+remote_theme: "just-the-docs/just-the-docs"  # Set the Just the Docs theme
 plugins:
   - jekyll-relative-links
+
 relative_links:
   enabled: true
   collections: true
+
 markdown: kramdown
+
 permalink: /:categories/:year/:month/:day/:title/
+
 include:
   - CONTRIBUTING.md
   - README.md
   - LICENSE.md
   - CODE_OF_CONDUCT.md
 
-nav:
-  - Home: /
-  - Blog: /_posts
-  - Contribute: /CONTRIBUTING
+# Navigation settings for Just the Docs theme
+# Configure the sidebar navigation here
+just_the_docs:
+  logo: "/assets/images/logo.png"  # Optional: Path to your logo image
+  search_enabled: true  # Enables the built-in search functionality
+  # Optional: Sidebar settings
+  aux_links:
+    "GitHub Repository": https://github.com/PhilGreen-Dev/developer-guides
+  nav_order: 1  # Order of navigation items
+  # Additional optional settings can be configured as needed
 
+# SEO settings
+seo:
+  keywords: "developer blog, programming guides, coding tutorials"
+  description: "A blog for cultivating developer knowledge with guides and tutorials."
+
+# Timezone setting
+timezone: "America/New_York"  # Adjust to your local timezone
+
+# Social links
+social:
+  GitHub: https://github.com/PhilGreen-Dev
+  LinkedIn: https://www.linkedin.com/in/phillipggreen/
+  Twitter: https://twitter.com/IcePickPhilly
+
+# Collections for posts
 collections:
   posts:
     output: true
     permalink: /:collection/:title/
+
+# Exclude unnecessary files or folders from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
