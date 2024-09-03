@@ -1,0 +1,14 @@
+title: The Green Stack
+description: Cultivating Developer Knowledge, One Guide at a Time
+author: Phillip Green
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - CODEOFCONDUCT.md
