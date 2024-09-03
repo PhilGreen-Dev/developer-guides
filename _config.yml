@@ -1,65 +1,26 @@
 title: The Green Stack
 description: Cultivating Developer Knowledge, One Guide at a Time
 author: Phillip Green
-remote_theme: "cotes2020/jekyll-theme-chirpy"  # Updated to use Chirpy theme
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-relative-links
-
 relative_links:
   enabled: true
   collections: true
-
 markdown: kramdown
-
 permalink: /:categories/:year/:month/:day/:title/
-
 include:
   - CONTRIBUTING.md
   - README.md
   - LICENSE.md
   - CODE_OF_CONDUCT.md
 
-# Navigation menu
 nav:
   - Home: /
   - Blog: /_posts
   - Contribute: /CONTRIBUTING
 
-# SEO settings
-seo:
-  keywords: "developer blog, programming guides, coding tutorials"
-  description: "A blog for cultivating developer knowledge with guides and tutorials."
-
-# Timezone setting
-timezone: "America/New_York"  # Set your local timezone
-
-# Social links
-social:
-  GitHub: https://github.com/PhilGreen-Dev
-  LinkedIn: https://www.linkedin.com/in/phillipggreen/
-  Twitter: https://twitter.com/IcePickPhilly
-
-# Analytics settings (optional)
-# google_analytics: UA-XXXXXXXXX-X
-
-# Comments settings (optional)
-# comments:
-#   provider: "disqus"
-#   disqus:
-#     shortname: "your-disqus-shortname"
-
-# Collections for posts
 collections:
   posts:
     output: true
     permalink: /:collection/:title/
-
-# Exclude unnecessary files or folders from the build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
