@@ -42,6 +42,9 @@ social:
   LinkedIn: https://www.linkedin.com/in/phillipggreen/
   Twitter: https://twitter.com/IcePickPhilly
 
+#Google Analytics
+google_analytics: "G-ESKLBRWSDF"
+
 # Collections for posts
 collections:
   posts:
