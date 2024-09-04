@@ -24,13 +24,14 @@ Just as a healthy ecosystem thrives on diversity, a robust tech stack flourishes
 
 ### 🌳 How to Navigate
 
-- Browse the guides listed above
-- Star this repository to stay updated with new content
-- Feel free to open issues for questions or suggestions for new topics
+- Browse the guides listed above or visit our [GitHub Blog Page](https://philgreen-dev.github.io/developer-guides/) to explore all content.
+- Star this repository to stay updated with new content.
+- Feel free to open issues for questions or suggestions for new topics.
 
 ### 🌎 Contributing to the Ecosystem
 
 Your insights can help this knowledge base grow! If you're interested in contributing or have suggestions for new topics, please check out our [Contributing Guidelines](CONTRIBUTING.md).
+
 ### 🌻 Stay Connected
 
 - [Follow me on GitHub](https://github.com/PhilGreen-Dev)
@@ -46,3 +47,7 @@ This project is licensed under the [MIT License](LICENSE) - see the LICENSE file
 Happy coding, and may your stack always be green and growing!
 
 © 2024 Phillip Green. All rights reserved.
+
+---
+
+This site is built using the [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme for Jekyll.
