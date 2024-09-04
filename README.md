@@ -1,3 +1,9 @@
+---
+title: "Welcome to The Green Stack"
+layout: default
+nav_order: 1  # This should be the smallest number to appear at the top
+---
+
 # Welcome to The Green Stack
 
 ## Cultivating Developer Knowledge, One Guide at a Time
