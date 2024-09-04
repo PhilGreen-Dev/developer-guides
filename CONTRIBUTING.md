@@ -1,3 +1,10 @@
+---
+title: "Contributing to The Green Stack"
+layout: default
+nav_order: 2
+---
+
+
 # Contributing to The Green Stack
 
 First off, thank you for considering contributing to The Green Stack! It's people like you that make this project such a great resource for the developer community.
