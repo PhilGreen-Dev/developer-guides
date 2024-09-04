@@ -16,7 +16,7 @@ permalink: /:categories/:year/:month/:day/:title/
 include:
   - CONTRIBUTING.md
   - README.md
-  - LICENSE.md
+  - LICENSE
   - CODE_OF_CONDUCT.md
 
 # Navigation settings for Just the Docs theme
