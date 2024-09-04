@@ -1,3 +1,9 @@
+---
+title: "Contributor Code of Conduct"
+layout: default
+nav_order: 3
+---
+
 # Contributor Code of Conduct
 
 ## Our Pledge
