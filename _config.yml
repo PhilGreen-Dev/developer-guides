@@ -1,32 +1,32 @@
 title: The Green Stack
 description: Cultivating Developer Knowledge, One Guide at a Time
 author: Phillip Green
-remote_theme: "just-the-docs/just-the-docs"  # Set the Just the Docs theme
+url: "https://philgreen-dev.github.io/developer-guides/"  # Replace with your actual domain
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-relative-links
-
 relative_links:
   enabled: true
   collections: true
-
 markdown: kramdown
-
 permalink: /:categories/:year/:month/:day/:title/
-
 include:
   - CONTRIBUTING.md
   - LICENSE
   - CODE_OF_CONDUCT.md
   - _posts
 
-# Navigation settings for Just the Docs theme
+# Just the Docs theme settings
 just_the_docs:
-  logo: "/assets/images/logo.png"  # Optional: Path to your logo image
-  search_enabled: true  # Enables the built-in search functionality
-  aux_links:
-    "GitHub Repository": https://github.com/PhilGreen-Dev/developer-guides
-  # Sidebar navigation ordering
-  nav_order: 1  # Order of navigation items
+  logo: "/assets/images/logo.png"
+  search_enabled: true
+  enable_copy_code_button: true
+  color_scheme: "light"
+  nav_external_links:
+    - title: GitHub Repository
+      url: https://github.com/PhilGreen-Dev/developer-guides
+      hide_icon: false
+  nav_order: 1
 
 # SEO settings
 seo:
@@ -34,7 +34,7 @@ seo:
   description: "A blog for cultivating developer knowledge with guides and tutorials."
 
 # Timezone setting
-timezone: "America/New_York"  # Adjust to your local timezone
+timezone: "America/New_York"
 
 # Social links
 social:
@@ -42,7 +42,7 @@ social:
   LinkedIn: https://www.linkedin.com/in/phillipggreen/
   Twitter: https://twitter.com/IcePickPhilly
 
-#Google Analytics
+# Google Analytics
 google_analytics: "G-ESKLBRWSDF"
 
 # Collections for posts
@@ -51,6 +51,23 @@ collections:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title/
     layout: post
+
+# GitHub Pages settings
+github:
+  is_project_page: true
+  repository_url: "https://github.com/PhilGreen-Dev/developer-guides"
+
+# Post settings
+future: false
+show_drafts: false
+
+# Category and tag archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Exclude unnecessary files or folders from the build
 exclude:
