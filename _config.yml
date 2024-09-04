@@ -50,6 +50,7 @@ collections:
 
 # Exclude unnecessary files or folders from the build
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
