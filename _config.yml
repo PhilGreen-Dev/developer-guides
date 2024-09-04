@@ -15,7 +15,6 @@ permalink: /:categories/:year/:month/:day/:title/
 
 include:
   - CONTRIBUTING.md
-  - README.md
   - LICENSE
   - CODE_OF_CONDUCT.md
 
