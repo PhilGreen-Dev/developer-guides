@@ -17,6 +17,7 @@ include:
   - CONTRIBUTING.md
   - LICENSE
   - CODE_OF_CONDUCT.md
+  - _posts
 
 # Navigation settings for Just the Docs theme
 just_the_docs:
