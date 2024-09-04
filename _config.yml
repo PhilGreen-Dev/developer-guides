@@ -19,15 +19,13 @@ include:
   - CODE_OF_CONDUCT.md
 
 # Navigation settings for Just the Docs theme
-# Configure the sidebar navigation here
 just_the_docs:
   logo: "/assets/images/logo.png"  # Optional: Path to your logo image
   search_enabled: true  # Enables the built-in search functionality
-  # Optional: Sidebar settings
   aux_links:
     "GitHub Repository": https://github.com/PhilGreen-Dev/developer-guides
+  # Sidebar navigation ordering
   nav_order: 1  # Order of navigation items
-  # Additional optional settings can be configured as needed
 
 # SEO settings
 seo:
@@ -47,7 +45,8 @@ social:
 collections:
   posts:
     output: true
-    permalink: /:collection/:title/
+    permalink: /blog/:categories/:year/:month/:day/:title/
+    layout: post
 
 # Exclude unnecessary files or folders from the build
 exclude:
@@ -58,4 +57,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
