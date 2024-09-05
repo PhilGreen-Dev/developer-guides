@@ -21,7 +21,7 @@ just_the_docs:
   logo: "/images/profile.png"
   search_enabled: true
   enable_copy_code_button: true
-  color_scheme: "auto"  # Automatically adjusts to system preference
+  color_scheme: auto  # Automatically adjusts to system preference
   nav_external_links:
     - title: GitHub Repository
       url: https://github.com/PhilGreen-Dev/developer-guides
