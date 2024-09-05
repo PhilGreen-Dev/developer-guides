@@ -43,6 +43,8 @@ APIs typically follow a request-response cycle:
 
 ![Client-Server Diagram](../images/client-server.png)
 
+*Image source: [TechTarget](https://www.techtarget.com/searchnetworking/definition/client-server)*
+
 ## Making API Requests
 
 Here's how to make a simple API request using different tools:
