@@ -55,7 +55,7 @@ Most modern Integrated Development Environments (IDEs) come with built-in debugg
 
 Breakpoints pause your code's execution at a specific line. To use them:
 
-![Setting a Breakpoint in Visual Studio Code](images/Breakpoint.png)
+![Setting a Breakpoint in Visual Studio Code](../images/Breakpoint.png)
 
 1. Click on the gutter (area to the left of your code) to set a breakpoint.
 2. Run your code in debug mode.
