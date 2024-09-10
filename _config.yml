@@ -69,6 +69,14 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# Adding Feed
+plugins:
+  - jekyll-feed
+
+title: The Green Stack
+description: Beginner Guide for all things development.
+url: "https://philgreen-dev.github.io/developer-guides/"
+
 # Exclude unnecessary files or folders from the build
 exclude:
   - README.md
